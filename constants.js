@@ -5,7 +5,6 @@ const constants = {
             endpoint: "https://api.cognitive.microsofttranslator.com/",
             location: "eastus"
         },
-        telegramToken: '6530874702:AAHlLhju--GzqHFfylgCF61KQuKEN_kDV74',
         defaultLanguage: 'en'
     
 };
