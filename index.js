@@ -3,7 +3,7 @@ const { Telegraf } = require('telegraf');
 const {setupBot} = require('./botSetup');
 
 function main(){
-    const bot = new Telegraf(process.env.TELEGRAM_TOKEN);
+    const bot = new Telegraf(process.env.TOKEN);
     console.log("Bot started");
 
     setupBot(bot);
